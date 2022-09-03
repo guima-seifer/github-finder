@@ -28,8 +28,6 @@ export const GithubProvider = ({ children }) => {
         payload: data,
     }) */
 
-  const setLoading = () => dispatch({ type: 'SET_LOADING' })
-
   return (
     <GithubContext.Provider
       value={{
